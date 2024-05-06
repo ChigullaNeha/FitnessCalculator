@@ -1,0 +1,42 @@
+.input-el {
+    height: 26px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  .login-btn {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    height: 36px;
+    width: 308px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 120vh;
+    width: 300%;
+  }
+  .form-container {
+    height: 340px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .error-msg {
+    color: red;
+  }
+  @media (mx-width: 576px) {
+    .form-container {
+      width: 300px;
+      height: 200px;
+    }
+  }

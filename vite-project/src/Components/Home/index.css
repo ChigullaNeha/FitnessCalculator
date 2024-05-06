@@ -1,0 +1,30 @@
+.home-container {
+  height: 500px;
+  width: 900px;
+  margin-bottom: 8px;
+  border-width: 6px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 4px;
+  margin-left: 30px;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+}
+.heading {
+  font-family: Bree-serief;
+  text-align: center;
+  text-decoration: underline;
+}
+.paragraph {
+  font-family: Bree-serief;
+}
